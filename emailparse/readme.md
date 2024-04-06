@@ -2,7 +2,7 @@
 
 Extract environment, execution date, and jobID number from email and save to a file
 
-Result in
+Result file:
 ```
 TEST1          (Environment)
 3/28/2024      (Execution date)
