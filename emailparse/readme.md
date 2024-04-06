@@ -4,7 +4,7 @@ Extract environment, execution date, and jobID number from email and save to a f
 
 Result file:
 ```
-K:\BatchLoadFile\Batch_ND_PROCESS.txt      # if it is there
+K:\BatchLoadFile\Batch_ND_PROCESS.txt      # if K:\BatchLoadFile\ exist
 TEST2                                      # environment
 3/28/2024                                  # execution date
 BYD0540                                    # job id list ...
