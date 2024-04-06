@@ -8,8 +8,8 @@ import re
 txt = "The rain in Spain"      
 x = re.search(r"\sS\w+", txt)  # return a Match object
 print(x.start())               # => 11
-print(x.end())                 # => 17
-print(x.span())                # => (11, 17) (starting index, ending index) note: ending index is not included in search string. Just like a[2:5] index 5 is not in included
+print(x.end())                 # => 17 (end at 17, but not include 17)
+print(x.span())                # => (11, 17) (starting index, ending index) 
 
 print(x.string)                # => The rain in Spain  (return the original string passed to search)
 print(x.group())               # => " Spain" (there is a space before Spain. It is the pattern \sS\w+: \s-space, then S, then \w+: any word letter)
