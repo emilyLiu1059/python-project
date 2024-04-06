@@ -37,6 +37,6 @@ for line in lines:
     jobs.append(re.findall(r'BYD\S*', line)[0])
 
 # Write the relevant lines to a new file
-with open('relevant_info.txt', 'w') as new_file:
+with open('result.txt', 'w') as new_file:
     for line in files + test + date + jobs:
         new_file.write(line + '\n')
