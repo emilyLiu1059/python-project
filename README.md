@@ -1,6 +1,6 @@
 # Python
 
-[https://www.pythoncheatsheet.org/cheatsheet/main](https://www.pythoncheatsheet.org/)
+[python cheatsheet](https://www.pythoncheatsheet.org/)
 
 ## python regular expression
 
