@@ -1,0 +1,36 @@
+Description:
+Test Region: TEST01
+Date to Be Executed: 04/3/2024
+ 
+Package Name: BATCH_BLD_STAGING
+Procedure Name: TEL_INSERT_BLD_STAGING_DETAILS
+Job id: BYD0980 -
+
+Package name: BATCH_BLD_ELFC
+Procedure name: TEL_PROCESS_ELFC_DAILY
+Job id: BYD0660 -
+ 
+Package name: BATCH_BLD_EMON
+Procedure name: TEL_VALIDATE_PAYBACK
+Job id: BYD0666 -
+ 
+Package name: BATCH_BLD_EMON
+Procedure name: TEL_PRE_EMON
+Job id: BYD0664 -
+ 
+Package name: BATCH_BLD_EMON
+Procedure name: TEL_PROCESS_EMON_DAILY
+Job id: BYD0670 -  
+1- 8
+ 
+Package name: BATCH_BLD_EMON
+Procedure name: TEL_POST_EMON_UPDATES
+Job id: BYD0674 -
+ 
+Package name: BATCH_BLD_EMON
+Procedure name: TEL_POST_EMON_ALERTS
+Job id: BYD0676 -
+ 
+Package Name: BATCH_BLD_STAGING
+Procedure Name: TEL_INSERT_ENSD_POST_EMON
+Job id: BYD1220 - 

@@ -1,0 +1,17 @@
+Please Run Following batches using Batch_ND_PROCESS.txt from 
+
+K:\BatchLoadFile
+
+Run following Batches in TEST2 for 03/28/2024.
+
+Package Name: BATCH_BLD_STAGING
+Procedure Name: TEL_INSERT_BLD_STAGING_DETAILS
+Job id: BYD0980 -
+
+Package name: BATCH_BLD_ELFC
+Procedure name: TEL_PROCESS_ELFC_DAILY
+Job id: BYD0660 -
+ 
+Package name: BATCH_BLD_EMON
+Procedure name: TEL_VALIDATE_PAYBACK
+Job id: BYD0666 -
