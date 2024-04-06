@@ -1,6 +1,6 @@
 ## Parse Email Extract Information
 
-Extract environment, execution date, and jobID number from email and save to a file
+Extract copyfile, environment, execution date, and jobID number from email and save to a file
 
 Result file:
 ```
