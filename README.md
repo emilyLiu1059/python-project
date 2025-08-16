@@ -35,11 +35,9 @@ This project is a simple Python script that parses an input text file (`emailbod
    - Writes all extracted data into `result.txt`.  
    - The file contains one entry per line.
 
-# Python
 
-[https://www.pythoncheatsheet.org/](https://www.pythoncheatsheet.org/)
-
-## python regular expression
+## Regular Expression Tips
+These are a compilation of some of the important RegEx concepts I used for this project.
 
 ```
 import re
