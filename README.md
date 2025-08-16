@@ -1,3 +1,40 @@
+# Python Email Body Parser
+This project is a simple Python script that parses an input text file (`emailbody2.txt`) and extracts structured information such as file paths, test identifiers, dates, and job codes. The results are saved into `result.txt`.
+
+1. **File Paths**  
+   - Searches for lines containing `K:\BatchLoadFile`.  
+   - Extracts filenames matching the pattern `Batch_ND_*`.  
+   - Ensures they have a `.txt` extension.  
+   - Outputs full paths like:  
+     ```
+     K:\BatchLoadFile\Batch_ND_12345.txt
+     ```
+
+2. **Test Identifiers**  
+   - Captures strings starting with `TEST` followed by additional characters (e.g., `TEST123`).  
+   - Example output:  
+     ```
+     TEST123
+     ```
+
+3. **Dates**  
+   - Extracts dates in the format **MM/DD/YYYY**.  
+   - Example output:  
+     ```
+     08/15/2025
+     ```
+
+4. **Job Codes**  
+   - Finds and extracts occurrences of `"BYD"` followed by text.  
+   - Example output:  
+     ```
+     BYD001
+     ```
+
+5. **Results File**  
+   - Writes all extracted data into `result.txt`.  
+   - The file contains one entry per line.
+
 # Python
 
 [https://www.pythoncheatsheet.org/](https://www.pythoncheatsheet.org/)
