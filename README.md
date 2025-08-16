@@ -37,7 +37,7 @@ This project is a simple Python script that parses an input text file (`emailbod
 
 
 ## Regular Expression Tips
-These are a compilation of some of the important RegEx concepts I used for this project.
+This is a compilation of some of the important RegEx concepts I used for this project:
 
 ```
 import re
